@@ -16,7 +16,7 @@ Features:
 - [Versioning](#versioning)
 - [Special assigns](#special-assigns)
 - [Named parameters](#named-parameters)
-- [Optinal parameter](#optinal-parameter)
+- [Optional parameters](#optional-parameters)
 - [General matcher](#general-matcher)
 - [Context](#context)
 - [Discover services](#discover-services)
@@ -97,7 +97,7 @@ So sending a get request to the uri '/api/books/AliceInWonderland/1', will resul
 
 	{"headers": ...,"parameters":{"title":"AliceInWonderland", "chapter": "1"}}
 
-## Optinal parameter
+## Optional parameters
 
 	rest.post('/store/?id', functionN );
 
